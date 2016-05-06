@@ -45,6 +45,21 @@
 				    <div class="post-content">
 
 				    	<?php the_content(); ?>
+
+				    	<?php
+
+							$args = array(
+								'post_type' => 'moment',
+								'posts_per_page' => -1,
+								'post_status' => 'publish',
+								'order' => 'ASC',
+								'post_parent' => $post->ID
+							);
+							$loop = new WP_Query( $args ); 
+							while ( $loop->have_posts() ) : $loop->the_post(); ?>
+								<h3><a href="<?php the_permalink(); ?>" id="post-<?php the_ID(); ?>">
+								<?php echo the_title(); ?></a></h3>
+							<?php endwhile; ?>
 				    
 				    	<p class="adventure-story"><?php echo types_render_field("story", array()); ?></p>
 				    
