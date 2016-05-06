@@ -688,7 +688,7 @@ input[type="button"],
 .post-header { 
 	width: 90%;
 	margin: 0 auto;
-	padding: 80px 0;
+	padding: 30px 0;
 }
 
 .post-date {
@@ -712,7 +712,7 @@ input[type="button"],
 
 
 .post-inner {
-	width: 520px;
+	width: 700px;
 	max-width: 85%;
 	margin: 0 auto;
 	padding: 80px 0 90px;

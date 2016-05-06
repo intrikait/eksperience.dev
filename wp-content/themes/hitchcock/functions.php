@@ -9,8 +9,8 @@ function hitchcock_setup() {
 	add_theme_support( 'automatic-feed-links' );
 	
 	// Set content-width
-	global $content_width;
-	if ( ! isset( $content_width ) ) $content_width = 600;
+	// global $content_width;
+	// if ( ! isset( $content_width ) ) $content_width = 600;
 	
 	// Post thumbnails
 	add_theme_support( 'post-thumbnails' );
