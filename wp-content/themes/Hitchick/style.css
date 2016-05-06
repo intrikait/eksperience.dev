@@ -15,13 +15,14 @@
 /*----- moment post styles -----*/
 h2.moment-title {
 	text-transform: uppercase;
-	font-size: 24px;
+	font-size: 40px;
 	text-align: left;
 }
 
 h3.moment-location {
 	text-align: justify;
 	font-weight: bold;
+	font-size: 25px;
 	color: #777777;
 	padding: 2px;
 }

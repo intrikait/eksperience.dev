@@ -43,8 +43,25 @@
 				<div class="post-inner">
 					    
 				    <div class="post-content">
-				    
+
 				    	<?php the_content(); ?>
+
+				    	<?php
+							$args = array(
+							    'post_type'      => 'memory',
+							    'post_parent'    => $post->ID,
+							 );
+
+							$parent = new WP_Query( $args );
+							if ( $parent->have_posts() ) : ?>
+							    <?php while ( $parent->have_posts() ) : $parent->the_post(); ?>
+							        <div id="parent-<?php the_ID(); ?>" class="parent-page">
+
+							           <h1><a href="<?php the_permalink(); ?>"><?php wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'post-thumb' ); ?></a></h1>
+							        </div>
+							    <?php endwhile; ?>
+							<?php endif; wp_reset_query(); ?>
+				    
 				    	<p class="adventure-story"><?php echo types_render_field("story", array()); ?></p>
 				    
 				    </div> <!-- /post-content -->

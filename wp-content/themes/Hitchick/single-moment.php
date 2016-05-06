@@ -41,9 +41,7 @@
 					    
 				    <div class="post-content">	
 				    
-				    	<?php 
-				    		echo types_render_field("photo", array("output"=>"normal","width"=>"500","align"=>"left"));
-				    		the_content(); ?>
+				    	<?php the_content(); ?>
 
 				    	<p class="moment-caption"><?php echo types_render_field("caption", array()); ?></p>
 				    
