@@ -31,6 +31,7 @@ p.moment-caption {
 	padding: 10px;
 	float: right;
 }
+/*----- end moments -----*/
 
 /*----- adventure post styles -----*/
 h3.adventure-location {
@@ -48,6 +49,9 @@ p.adventure-story {
 .post-content .alignleft {
 	max-width: 75%;
 }
+/*----- end adventures -----*/
+
+
 
 .post-content .alignright {
 	max-width: 25%;

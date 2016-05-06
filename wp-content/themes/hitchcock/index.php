@@ -26,7 +26,7 @@
  	    		$args = array( 'post_type' => 'moment', 'posts_per_page' => 10 );
 				$loop = new WP_Query( $args );
 				while ( $loop->have_posts() ) : $loop->the_post();
-	    			get_template_part( 'content', get_post_format() ); 
+	    			get_template_part( 'content-moment', get_post_format() ); 
 	    		endwhile; ?>
 	        
 	        <div class="clear"></div>
