@@ -12,3 +12,18 @@
  /* == Add your own styles below this line ==
 --------------------------------------------*/
 
+/*----- moment post styles -----*/
+h2.moment-title {
+	text-align: left;
+}
+
+h3.moment-location {
+	text-align: justify;
+	padding: 2px;
+}
+
+p.moment-caption {
+	text-align: left;
+	padding: 10px;
+	float: right;
+}

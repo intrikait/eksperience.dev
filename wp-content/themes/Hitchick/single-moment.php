@@ -32,17 +32,20 @@
 				
 				<div class="post-header">
 					
-					<p class="post-date"><?php the_time(get_option('date_format')); ?></p>
-					
-					<h1 class="post-title"><?php the_title(); ?></h1>
+					<h2 class="moment-title"><?php the_title(); ?></h2>
+					<h3 class="moment-location"><?php echo types_render_field("location", array()); ?></h3>
 					
 				</div>
 				
 				<div class="post-inner">
 					    
-				    <div class="post-content">
+				    <div class="post-content">	
 				    
-				    	<?php the_content(); ?>
+				    	<?php 
+				    		echo types_render_field("photo", array("output"=>"normal","size"=>"full","align"=>"left"));
+				    		the_content(); ?>
+
+				    	<p class="moment-caption"><?php echo types_render_field("caption", array()); ?></p>
 				    
 				    </div> <!-- /post-content -->
 				    

@@ -1,8 +1,6 @@
 <?php get_header(); ?>
 
-<div class="content section-inner">
-																	                    
-	<?php if (have_posts()) : ?>
+<div class="content section-inner">																                   
 	
 		<?php
 		$paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
@@ -34,9 +32,7 @@
 	        <div class="clear"></div>
 				
 		</div> <!-- /posts -->
-		
-	<?php endif; ?>
-	
+			
 	<div class="clear"></div>
 	
 	<?php hitchcock_archive_navigation(); ?>
