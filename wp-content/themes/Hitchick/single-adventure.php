@@ -32,9 +32,11 @@
 				
 				<div class="post-header">
 					
-					<p class="post-date"><?php the_time(get_option('date_format')); ?></p>
+					<p class="post-date"><?php echo types_render_field("start-date", array("style"=>"text","format"=>"M j, Y")) ?> - <?php echo types_render_field("end-date", array("style"=>"text","format"=>"M j, Y")) ?></p>
 					
 					<h1 class="post-title"><?php the_title(); ?></h1>
+
+					<h3 class="adventure-location"><?php echo types_render_field("location", array()); ?></h3>
 					
 				</div>
 				
@@ -43,6 +45,7 @@
 				    <div class="post-content">
 				    
 				    	<?php the_content(); ?>
+				    	<p class="adventure-story"><?php echo types_render_field("story", array()); ?></p>
 				    
 				    </div> <!-- /post-content -->
 				    

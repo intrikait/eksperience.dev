@@ -31,3 +31,16 @@ p.moment-caption {
 	padding: 10px;
 	float: right;
 }
+
+/*----- adventure post styles -----*/
+h3.adventure-location {
+	text-align: center;
+	font-weight: bold;
+	color: #777777;
+	padding: 2px;
+}
+
+p.adventure-story {
+	text-align: left;
+	padding: 10px;
+}
