@@ -2,9 +2,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Hitchcock v1.01\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: 2016-05-06 08:48-0700\n"
+"POT-Creation-Date: 2016-05-06 08:51-0700\n"
+"PO-Revision-Date: 2016-05-06 08:52-0700\n"
+"Last-Translator: \n"
 "Language-Team: \n"
+"Language: fil\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -15,8 +17,6 @@ msgstr ""
 "_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
 "X-Poedit-Basepath: ..\n"
 "X-Textdomain-Support: yes\n"
-"Last-Translator: \n"
-"Language: fil\n"
 "X-Poedit-SearchPath-0: .\n"
 
 # @ hitchcock
@@ -32,8 +32,8 @@ msgid ""
 "search for what you are looking for with the form below."
 msgstr ""
 "Parang subokan ka magbukas ang pahine na hindi umiral. Baka alisin or "
-"malipat na, o talagang hindi umiral. Pwede kang maghanap ng anu-ano mo "
-"kung paggamit mo ang porma sa baba."
+"malipat na, o talagang hindi umiral. Pwede kang maghanap ng anu-ano mo kung "
+"paggamit mo ang porma sa baba."
 
 # @ hitchcock
 #: archive.php:8
@@ -71,7 +71,6 @@ msgid "Archive"
 msgstr "Archive"
 
 # @ hitchcock
-#. gettext fix: identical singular and plural forms found, that may be ambiguous! Please check the code!
 #: comments.php:18 comments.php:90
 msgid "Comment"
 msgid_plural "Comments"
@@ -181,7 +180,7 @@ msgid "Search Form"
 msgstr "Pormang Humanap"
 
 # @ hitchcock
-#: index.php:17
+#: index.php:15
 #, php-format
 msgid "Page %s of %s"
 msgstr "Pahine %s ng %s"
@@ -201,16 +200,16 @@ msgstr "Baguhin Pahine"
 #: page.php:53 single.php:126
 msgid "We couldn't find any posts that matched your query. Please try again."
 msgstr ""
-"Hindi kami hanapin ang posts na magkatugma ng query mo. Pakisuyo subukin "
-"mo ulit."
+"Hindi kami hanapin ang posts na magkatugma ng query mo. Pakisuyo subukin mo "
+"ulit."
 
 # @ hitchcock
-#: search.php:9 search.php:33
+#: search.php:9 search.php:35
 msgid "Search Results"
 msgstr "Hanapin ng Resulta"
 
 # @ hitchcock
-#: search.php:46
+#: search.php:48
 msgid "No results. Try again, would you kindly?"
 msgstr "Walang Resulta. Pakisuyo, subukin mo ulit."
 
@@ -231,5 +230,6 @@ msgstr "Post"
 
 # @ hitchcock
 #: single.php:104
+#, fuzzy
 msgid "Previous"
 msgstr "Datihan"
