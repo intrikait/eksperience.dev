@@ -1,0 +1,235 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Hitchcock v1.00\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2016-05-06 12:54-0700\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"Last-Translator: \n"
+"Language: fil\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ hitchcock
+#: 404.php:11
+msgid "Error 404"
+msgstr ""
+
+# @ hitchcock
+#: 404.php:19
+msgid ""
+"It seems like you have tried to open a page that doesn't exist. It could "
+"have been deleted, moved, or it never existed at all. You are welcome to "
+"search for what you are looking for with the form below."
+msgstr ""
+"Parang subokan ka magbukas ang pahine na hindi umiral. Baka alisin or "
+"malipat na, o talagang hindi umiral. Pwede kang maghanap ng anu-ano mo "
+"kung paggamit mo ang porma sa baba."
+
+# @ hitchcock
+#: archive.php:27
+msgid "Archive"
+msgstr "Arkibo"
+
+# @ hitchcock
+#: index.php:17
+#, php-format
+msgid "Page %s of %s"
+msgstr "Pahina %s ng %s"
+
+# @ hitchcock
+#. gettext fix: identical singular and plural forms found, that may be ambiguous! Please check the code!
+#: comments.php:18 comments.php:90
+msgid "Comment"
+msgid_plural "Comments"
+msgstr[0] "kommentar"
+msgstr[1] "kommentarer"
+
+# @ hitchcock
+#: comments.php:37
+msgid "Pingback"
+msgid_plural "Pingbacks"
+msgstr[0] "pingback"
+msgstr[1] "pingbacks"
+
+# @ hitchcock
+#: comments.php:55
+msgid "Older"
+msgstr "Dati"
+
+# @ hitchcock
+#: comments.php:61
+msgid "Newer"
+msgstr "Bago"
+
+# @ hitchcock
+#: comments.php:98
+msgid "Name"
+msgstr "Pangalan"
+
+# @ hitchcock
+#: comments.php:104
+msgid "Email"
+msgstr ""
+
+# @ hitchcock
+#: comments.php:110
+msgid "Website"
+msgstr "Websayt"
+
+# @ hitchcock
+#: functions.php:46
+msgid "Primary Menu"
+msgstr ""
+
+# @ hitchcock
+#: functions.php:298
+msgid "Pingback:"
+msgstr ""
+
+# @ hitchcock
+#: functions.php:298 functions.php:341
+msgid "Edit"
+msgstr "Baguhin"
+
+# @ hitchcock
+#: functions.php:345
+msgid "Your comment is awaiting moderation."
+msgstr "Naghihintay ang komento mo para umalalay."
+
+# @ hitchcock
+#: functions.php:332
+msgid "Reply"
+msgstr ""
+
+# @ hitchcock
+#: functions.php:367 functions.php:403
+msgid "Logo"
+msgstr ""
+
+# @ hitchcock
+#: functions.php:369
+msgid "Upload a logo to replace the default site title in the sidebar/header"
+msgstr "Upload ng logo para palitan ang default site title sa sidebar/header"
+
+# @ hitchcock
+#: functions.php:395
+msgid "Accent Color"
+msgstr "Accent Kulay"
+
+# @ hitchcock
+#: footer.php:4
+msgid "Theme by"
+msgstr "Tema ng"
+
+# @ hitchcock
+#: page.php:53 single.php:126
+msgid "We couldn't find any posts that matched your query. Please try again."
+msgstr ""
+"Hindi kami hanapin ang posts na magkatugma ng query mo. Pakisuyo subukin "
+"mo ulit."
+
+# @ fukasawa
+# @ hitchcock
+#: page.php:35 single.php:53
+msgid "Pages:"
+msgstr "Pahine:"
+
+# @ hitchcock
+#: search.php:46
+msgid "No results. Try again, would you kindly?"
+msgstr "Walang Resulta. Pakisuyo, subukin mo ulit."
+
+# @ hitchcock
+#: single.php:69
+msgid "In"
+msgstr ""
+
+# @ hitchcock
+#: archive.php:8
+msgid "Date"
+msgstr "Petsahan"
+
+# @ hitchcock
+#: archive.php:11
+msgid "Month"
+msgstr "Buwan"
+
+# @ hitchcock
+#: archive.php:14
+msgid "Year"
+msgstr "Taon"
+
+# @ hitchcock
+#: archive.php:17
+msgid "Category"
+msgstr "Kategorya"
+
+# @ hitchcock
+#: archive.php:20
+msgid "Tag"
+msgstr ""
+
+# @ hitchcock
+#: archive.php:23
+msgid "Author"
+msgstr "May-akda"
+
+# @ hitchcock
+#: comments.php:80
+msgid "Leave a Reply"
+msgstr "Mag-iwan ng Reply"
+
+# @ hitchcock
+#: content.php:9
+msgid "Sticky"
+msgstr ""
+
+# @ hitchcock
+#: functions.php:47
+msgid "Social Menu"
+msgstr ""
+
+# @ hitchcock
+#: functions.php:316
+msgid "Post Author"
+msgstr ""
+
+# @ hitchcock
+#: header.php:47 searchform.php:2
+msgid "Search Form"
+msgstr ""
+
+# @ hitchcock
+#: page.php:41
+msgid "Edit Page"
+msgstr ""
+
+# @ hitchcock
+#: search.php:9 search.php:33
+msgid "Search Results"
+msgstr ""
+
+# @ hitchcock
+#: single.php:93
+msgid "Next"
+msgstr "Susunod"
+
+# @ hitchcock
+#: single.php:93 single.php:104
+msgid "Post"
+msgstr "Post"
+
+# @ hitchcock
+#: single.php:104
+msgid "Previous"
+msgstr "Datihan"
