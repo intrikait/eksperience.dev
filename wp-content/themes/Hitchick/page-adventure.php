@@ -1,4 +1,13 @@
-<?php get_header(); ?>
+<?php
+/**
+ * Template Name: Adventure Page Template
+ *
+ * @package WordPress
+ * @subpackage Hitchick
+ * @since Hitchcock 1.0
+ */
+
+get_header(); ?>
 
 <div class="content section-inner">
 																	                    
@@ -25,7 +34,7 @@
 		<div class="posts" id="posts">
 
  	    	<?php 
- 	    		$args = array( 'post_type' => 'moment', 'posts_per_page' => 10 );
+ 	    		$args = array( 'post_type' => 'adventure', 'posts_per_page' => 10 );
 				$loop = new WP_Query( $args );
 				while ( $loop->have_posts() ) : $loop->the_post();
 	    			get_template_part( 'content', get_post_format() ); 
